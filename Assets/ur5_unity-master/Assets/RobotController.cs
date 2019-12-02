@@ -42,20 +42,22 @@ public class RobotController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        joint0.Rotate(0, 0, 120, Space.Self);
     }
 
     // Update is called once per frame
     void Update()
     {
-        joint0.Rotate(0, 0, joint0SliderValue * joint0TurnRate);
-        joint1.Rotate(0, 0, joint1SliderValue * joint1TurnRate);
-        joint2.Rotate(0, 0, joint2SliderValue * joint2TurnRate);
-        joint3.Rotate(0, 0, joint3SliderValue * joint3TurnRate);
-        joint4.Rotate(0, 0, joint4SliderValue * joint4TurnRate);
-        joint5.Rotate(0, 0, joint5SliderValue * joint5TurnRate);
+        // joint0.Rotate(0, 0, joint0SliderValue * joint0TurnRate);
+        // joint1.Rotate(0, 0, joint1SliderValue * joint1TurnRate);
+        // joint2.Rotate(0, 0, joint2SliderValue * joint2TurnRate);
+        // joint3.Rotate(0, 0, joint3SliderValue * joint3TurnRate);
+        // joint4.Rotate(0, 0, joint4SliderValue * joint4TurnRate);
+        // joint5.Rotate(0, 0, joint5SliderValue * joint5TurnRate);
 
-        checkMouseUp();
+        // checkMouseUp();
+
+        // joint0.Rotate(0, 0, 1, Space.Self);
         
     }
 
